@@ -1,0 +1,22 @@
+{
+  "name": "serverless-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless create_domain && serverless deploy",
+    "debug": "export SLS_DEBUG=* && node --inspect ./node_modules/.bin/serverless offline --skipCacheInvalidation --disableCookieValidation"
+  },
+  "author": "Orhan Kutlu",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "serverless": "^2.20.1",
+    "serverless-add-api-key": "^4.2.0",
+    "serverless-domain-manager": "^5.1.0",
+    "serverless-dotenv-plugin": "^3.1.0",
+    "serverless-offline": "^6.8.0"
+  }
+}
