@@ -1,6 +1,6 @@
 # Serverless framework boilerplate
 
-Use this template as a boiler plate to lambda based projects. It has VSCode debugger ready to use.
+Use this template as a boiler plate to lambda based projects. It has responser, and VSCode debugger ready to use.
 
 Steps:
 
