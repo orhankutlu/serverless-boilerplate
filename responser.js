@@ -4,9 +4,9 @@ const responser = {
       status: 'success'
     };
     if (data) {
-      body.data = data;
+      _body.data = data;
     }
-    return responser._prepareResponse({
+    return responser.send({
       statusCode: 200,
       body: _body,
       headers
